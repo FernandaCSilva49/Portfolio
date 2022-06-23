@@ -1,0 +1,208 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* outros */
+
+html {
+    background-image: linear-gradient( black,#081C15, #1B4332, #2D6A4F, #40916C, #52B788, #74c69d);
+    color: white;
+}
+
+.titulos {
+    display: flex;
+    justify-content: center;
+}
+
+.titulos_margin {
+    margin-bottom: 2%;
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+}
+
+.margin {
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margin_tb {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* header */
+
+#links_gap {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+header {
+    margin-top: 4%;
+}
+
+header nav {
+    margin-top: 1%;
+}
+
+/* aside / conhecimento / skills */
+
+aside {
+    width: 50%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+}
+
+#asideDiv {
+    columns: 30px 3;
+    padding-top: 6%;
+    padding-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #74C69DB3;
+    border-radius: 30px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    padding: 5%;
+}
+
+.ling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* sobre mim */
+
+#sobreMim {
+    word-wrap:break-word;
+    text-align: center;
+    padding-right: 50%;
+    padding-left: 2%;
+}
+
+#divSobreMim {
+    background-color: #74C69DB3;
+    padding: 6%;
+    border-radius: 30px;
+}
+
+/* projetos */
+
+#projetos {
+    margin-bottom: -45px;
+}
+
+.texto {
+    word-wrap:break-word; 
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.gap {
+    margin: 3%;
+}
+
+#projetoDiv {
+    display: flex;
+    margin-top: -4%;
+}
+
+button {
+    background-color: #081c1500;
+    border: 3px double #74C69D;
+    color: white;
+}
+
+
+/* projeto jogo do humor */
+
+#humorVoltar {
+    display: none;
+}
+
+#blocoH {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-style: inset;
+    border-color: #40916C;
+    border-radius: 30px;
+    background-image: linear-gradient(to top, black,#081C15, #1B4332, #2D6A4F, #40916C, #52B788, #74C69D);
+}
+
+#newDivH {
+    text-align: center;
+}
+
+/* projeto pokedex */
+
+#pokeVoltar {
+    display: none;
+}
+
+#blocoP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-style: inset;
+    border-color: #40916C;
+    border-radius: 30px;
+    background-image: linear-gradient(to top, black,#081C15, #1B4332, #2D6A4F, #40916C, #52B788, #74C69D);
+}
+
+#newDivP {
+    text-align: center;
+}
+
+/* contatos */ 
+
+#divContatos {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #081C15;
+    padding: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+}
+
+#contatos h3 {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    margin-top: 4%;
+    padding: 1%;
+}
+
